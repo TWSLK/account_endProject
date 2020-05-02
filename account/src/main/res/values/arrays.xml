@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Restaurant details type -->
+    <array name="type_dining">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Night snack</item>
+        <item>Custom</item>
+    </array>
+
+    <!-- Restaurant details type pictures -->
+    <string-array name="type_dining_drawable_ids">
+        <item>@drawable/ic_breakfast</item>
+        <item>@drawable/ic_dining_normal</item>
+        <item>@drawable/ic_dining_normal</item>
+        <item>@drawable/ic_night_snack</item>
+        <item>@drawable/ic_custom</item>
+    </string-array>
+
+    <!-- Travel details type -->
+    <array name="type_trip">
+        <item>Ferry</item>
+        <item>Flight</item>
+        <item>Transit</item>
+        <item>Taxi</item>
+        <item>Gas</item>
+        <item>Custom</item>
+    </array>
+
+    <!-- Travel details type pictures -->
+    <string-array name="type_trip_drawable_ids">
+        <item>@drawable/ic_ferry</item>
+        <item>@drawable/ic_flight</item>
+        <item>@drawable/ic_bus</item>
+        <item>@drawable/ic_car</item>
+        <item>@drawable/ic_refuel</item>
+        <item>@drawable/ic_custom</item>
+    </string-array>
+
+    <!-- Total expenditure type -->
+    <array name="minor_type_expend">
+        <item>@string/custom</item>
+        <item>@string/shopping</item>
+        <item>@string/dining</item>
+        <item>@string/recreation</item>
+        <item>@string/trip</item>
+        <item>@string/tob_and_wine</item>
+        <item>@string/snakes</item>
+        <item>@string/lend</item>
+        <item>@string/housing</item>
+        <item>@string/travel</item>
+        <item>@string/communication</item>
+        <item>@string/medical</item>
+        <item>@string/beautify</item>
+        <item>@string/daily</item>
+        <item>@string/study</item>
+        <item>@string/favour</item>
+        <item>@string/repay</item>
+        <item>@string/digital</item>
+        <item>@string/home_furnishing</item>
+    </array>
+
+    <string-array name="minor_type_drawable_ids_expend">
+        <item>@drawable/ic_custom</item>
+        <item>@drawable/ic_shoping</item>
+        <item>@drawable/ic_eat</item>
+        <item>@drawable/ic_game</item>
+        <item>@drawable/ic_car</item>
+        <item>@drawable/ic_tob_wine</item>
+        <item>@drawable/ic_snacks</item>
+        <item>@drawable/ic_lend</item>
+        <item>@drawable/ic_housing</item>
+        <item>@drawable/ic_travel</item>
+        <item>@drawable/ic_comm</item>
+        <item>@drawable/ic_medical</item>
+        <item>@drawable/ic_beauty</item>
+        <item>@drawable/ic_daily</item>
+        <item>@drawable/ic_study</item>
+        <item>@drawable/ic_feelings</item>
+        <item>@drawable/ic_debit</item>
+        <item>@drawable/ic_digital</item>
+        <item>@drawable/ic_jiaju</item>
+    </string-array>
+
+    <integer-array name="minor_type_tint_expend">
+        <item>0xFF707070</item>
+        <item>0xFFE91E63</item>
+        <item>0xFFFFEB3B</item>
+        <item>0xFF9C27B0</item>
+        <item>0xFF03A9F4</item>
+        <item>0xFF009688</item>
+        <item>0xFF4CAF50</item>
+        <item>0xFF9C27B0</item>
+        <item>0xFFE91E63</item>
+        <item>0xFF795548</item>
+        <item>0xFFE91E63</item>
+        <item>0xFF607D8B</item>
+        <item>0xFF795548</item>
+        <item>0xFFFFEB3B</item>
+        <item>0xFFE91E63</item>
+        <item>0xFFFFEB3B</item>
+        <item>0xFF03A9F4</item>
+        <item>0xFF03A9F4</item>
+        <item>0xFF9C27B0</item>
+    </integer-array>
+
+    <array name="minor_type_income">
+        <item>工资</item>
+        <item>红包</item>
+        <item>奖金</item>
+        <item>兼职</item>
+        <item>借钱</item>
+        <item>自定义</item>
+    </array>
+
+    <string-array name="minor_type_drawable_ids_income">
+        <item>@drawable/ic_salary</item>
+        <item>@drawable/ic_red_packet</item>
+        <item>@drawable/ic_bonus</item>
+        <item>@drawable/ic_part_time_jab</item>
+        <item>@drawable/ic_borrow</item>
+        <item>@drawable/ic_custom</item>
+    </string-array>
+
+    <integer-array name="minor_type_tint_income">
+        <item>0xFF9C27B0</item>
+        <item>0xFFE91E63</item>
+        <item>0xFF03A9F4</item>
+        <item>0xFF4CAF50</item>
+        <item>0xFF009688</item>
+        <item>0xFF707070</item>
+    </integer-array>
+</resources>
